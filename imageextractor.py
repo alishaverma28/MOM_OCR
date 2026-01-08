@@ -4,6 +4,9 @@ import numpy as np
 from PIL import Image
 import os
 
+from dotenv import load_dotenv
+load_dotenv() #activate api key
+
 def extract_text_image(image_path):
     file_bytes = np.asarray(bytearray(image_path.read()), dtype=np.uint8)
     image = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)

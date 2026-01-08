@@ -5,6 +5,9 @@ from pdfextractor import text_extractor_pdf
 from docxextractor import text_extractor_docx
 from imageextractor import extract_text_image
 
+from dotenv import load_dotenv
+load_dotenv() #activate api key
+
 # Configure The Model
 key = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=key)
