@@ -37,6 +37,58 @@ An AI-assisted web application that automatically generates professional and sta
 
 ## 📁 Project Structure
 
+MOM_OCR/
+│
+├── webapp.py
+├── pdfextractor.py
+├── docxextractor.py
+├── imageextractor.py
+├── requirements.txt
+├── .env
+└── README.md
+
+
+---
+
+## 📝 How to Use
+
+1. Upload meeting notes from the sidebar
+2. Click **Generate MoM**
+3. Review the generated Minutes of Meeting
+4. Download the MoM file
+
+---
+
+## 🔐 Notes
+
+- Make sure `.env` file is **not pushed to GitHub**
+- Use a valid **Google Gemini API Key**
+- Output is formatted to be easily pasted into Word or PDF
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+- Fork the repo
+- Create a new branch
+- Commit your changes
+- Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👩‍💻 Author
+
+**Alisha Verma**  
+GitHub: https://github.com/alishaverma28
+
+
 
 
 
