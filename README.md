@@ -4,6 +4,11 @@ An AI-assisted web application that automatically generates professional and sta
 
 ---
 
+## App Link
+https://momocr.streamlit.app/
+
+---
+
 ## 🚀 Features
 
 - Upload meeting notes in **PDF, DOCX, JPG, JPEG, or PNG**
